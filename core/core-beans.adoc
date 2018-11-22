@@ -1,24 +1,18 @@
 [[beans]]
-= The IoC Container
+= IoC 容器
 
-This chapter covers Spring's Inversion of Control (IoC) container.
-
+本章介绍了Spring的IOC（控制反转）容器。
 
 
 
 [[beans-introduction]]
-== Introduction to the Spring IoC Container and Beans
-
-This chapter covers the Spring Framework implementation of the Inversion of Control
-(IoC) principle. (See <<overview.adoc#background-ioc,Inversion of Control>>.) IoC
-is also known as dependency injection (DI). It is a process whereby objects define
-their dependencies (that is, the other objects they work with) only through constructor
-arguments, arguments to a factory method, or properties that are set on the object
-instance after it is constructed or returned from a factory method. The container then
-injects those dependencies when it creates the bean. This process is fundamentally
+== 关于Spring IOC和Bean的简介
+本章介绍了Spring IOC容器的实现机制 (什么是 <<overview.adoc#background-ioc,控制反转>>.) IoC(控制反转)也被称为依赖注入(DI). 这是一个对象仅仅通过构造函数的参数以及工厂的参数，或者通过对于对象实例在其被构造或者从一个工厂返回后进行的设置，从而定义依赖（是指其他的对象，本对象运行时需要的）的过程。在bean建立之后容器就会注入这些依赖. This process is fundamentally
 the inverse (hence the name, Inversion of Control) of the bean itself
 controlling the instantiation or location of its dependencies by using direct
 construction of classes or a mechanism such as the Service Locator pattern.
+
+
 
 The `org.springframework.beans` and `org.springframework.context` packages are the basis
 for Spring Framework's IoC container. The

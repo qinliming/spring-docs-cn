@@ -9,16 +9,10 @@
 
 参考文档的这一部分涵盖了Spring框架中不可或缺的所有技术。
 
-Foremost amongst these is the Spring Framework's Inversion of Control (IoC) container. A
-thorough treatment of the Spring Framework's IoC container is closely followed by
-comprehensive coverage of Spring's Aspect-Oriented Programming (AOP) technologies. The
-Spring Framework has its own AOP framework, which is conceptually easy to understand
-and which successfully addresses the 80% sweet spot of AOP requirements in Java
-enterprise programming.
+其中最重要的是Spring框架的反转控制(IoC)容器。然后就是spring AOP技术，Spring有其自己的AOP框架，非常容易理解，而且满足了百分之八十的JAVA大型应用程序开发的需求。
 
-Coverage of Spring's integration with AspectJ (currently the richest -- in terms of
-features -- and certainly most mature AOP implementation in the Java enterprise space) is
-also provided.
+Spring也支持集成AspectJ(目前大型java应用程序领域，特性最多，维护支持最多的AOP框架) 
+
 
 include::core/core-beans.adoc[leveloffset=+1]
 

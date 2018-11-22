@@ -1,0 +1,23 @@
+= Spring Framework 文档
+:doc-root: https://docs.spring.io
+:api-spring-framework: {doc-root}/spring-framework/docs/{spring-version}/javadoc-api/org/springframework
+
+****
+_新功能_, _升级日志_, _支持版本_, 以及其他主题, 它们是被独立于文档之外在项目的wiki中管理的 https://github.com/spring-projects/spring-framework/wiki[*Github Wiki*].
+****
+
+[horizontal]
+<<overview.adoc#overview,总览>> :: 历史, 设计 哲学,反馈,
+入门
+<<core.adoc#spring-core,核心组件>> :: IoC 容器, 事件, 资源, i18n国际化, 验证,
+数据绑定, 类型转换, SpEL, 面向切面编程。
+<<testing.adoc#testing,测试>> :: Mock 对象, TestContext framework,
+Spring MVC 测试, WebTestClient.
+<<data-access.adoc#spring-data-tier,Data Access>> :: 事务, DAO支持, JDBC,
+ORM, XML处理.
+<<web.adoc#spring-web,Web Servlet>> :: Spring MVC, WebSocket, SockJS, STOMP messaging.
+<<web-reactive.adoc#spring-webflux,Web Reactive>> :: Spring WebFlux,
+WebClient, WebSocket.
+<<integration.adoc#spring-integration,集成>> :: 远程调用, JMS, JCA, JMX, Email,
+任务, 计划任务, 缓存.
+<<languages.adoc#languages,语言>> :: Kotlin, Groovy, 动态语言.
